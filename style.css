@@ -1,4 +1,43 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body {
+    background-color:black;
+    font: arial;
+    color:white;
+}
+h1{
+    color:grey;
+    font: verdana; 
+    text-align: left;   
+}
+.maindiv{
+    background-color: white;
+    color:black;
+    width: 400px; /*300px doesn't look right on the title */
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto
+         
+}
+.items{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+#principal {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#rate{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+#years{
+    margin-top: 3%;
+    margin-left: 4%;
+}
+#result{
+    display:block
+}
+footer{
+    background-color:white;
+    text-align: left;
+    color:black;
+}
